@@ -28,6 +28,8 @@ spec:
           value: kubeflow-userid
         - name: KUBEFLOW_USERID_PREFIX
           value: ""
+        - name: APP_SECURE_COOKIES
+          value: "false"
         volumeMounts:
         - name: config-volume
           mountPath: /etc/config
