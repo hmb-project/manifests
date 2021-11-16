@@ -15,15 +15,9 @@ data:
         },
         {
           "type": "item",
-          "link": "/volumes/",
-          "text": "存储",
-          "icon": "device:storage"
-        },
-        {
-          "type": "item",
-          "link": "/models/",
-          "text": "模型",
-          "icon": "kubeflow:models"
+          "text": "项目空间",
+          "link": "/pipeline/#/experiments",
+          "icon": "done-all"
         },
         {
           "type": "item",
@@ -45,31 +39,43 @@ data:
         },
         {
           "type": "item",
+          "link": "/pipeline/#/executions",
+          "text": "工作流历史",
+          "icon": "av:play-arrow"
+        },
+        {
+          "type": "item",
+          "link": "/models/",
+          "text": "模型上线",
+          "icon": "kubeflow:models"
+        },
+        {
+          "type": "item",
           "link": "/pipeline/#/artifacts",
           "text": "制品仓库",
           "icon": "editor:bubble-chart"
         },
         {
           "type": "item",
-          "link": "/pipeline/#/executions",
-          "text": "工作流历史",
-          "icon": "av:play-arrow"
+          "link": "/volumes/",
+          "text": "存储卷",
+          "icon": "device:storage"
         }
       ],
       "externalLinks": [ ],
         "quickLinks": [
           {
-            "text": "Upload a pipeline",
+            "text": "上传一个工作流",
             "desc": "Pipelines",
             "link": "/pipeline/"
           },
           {
-            "text": "View all pipeline runs",
+            "text": "查看所有工作流",
             "desc": "Pipelines",
             "link": "/pipeline/#/runs"
           },
           {
-            "text": "Create a new Notebook server",
+            "text": "创建新的开发环境",
             "desc": "Notebook Servers",
             "link": "/jupyter/new?namespace=kubeflow"
           },
