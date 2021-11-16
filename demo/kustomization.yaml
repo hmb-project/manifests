@@ -29,8 +29,6 @@ resources:
 - ../apps/pipeline/upstream/env/platform-agnostic-multi-user
 # KFServing
 - ../apps/kfserving/upstream/overlays/kubeflow
-# Katib
-- ../apps/katib/upstream/installs/katib-with-kubeflow
 # Central Dashboard
 - ../apps/centraldashboard/upstream/overlays/istio
 # Admission Webhook
@@ -43,10 +41,6 @@ resources:
 - ../apps/profiles/upstream/overlays/kubeflow
 # Volumes Web App
 - ../apps/volumes-web-app/upstream/overlays/istio
-# Tensorboards Web App
--  ../apps/tensorboard/tensorboard-controller/upstream/overlays/kubeflow
-# Tensorboard Controller
--  ../apps/tensorboard/tensorboards-web-app/upstream/overlays/istio
 # Training Operator
 - ../apps/training-operator/upstream/overlays/kubeflow
 # MPI Operator
