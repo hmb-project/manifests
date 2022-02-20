@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: volumes-web-app
-        image: public.ecr.aws/j1r0q0g6/notebooks/volumes-web-app
+        image: registry.cn-shenzhen.aliyuncs.com/h0p1/volumes:latest
         ports:
         - containerPort: 5000
         env:
