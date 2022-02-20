@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: centraldashboard
-        image: registry.cn-shenzhen.aliyuncs.com/taibiaoguo-pub/centraldashboard
+        image: registry.cn-shenzhen.aliyuncs.com/taibiaoguo-pub/centraldashboard:v1.6.2
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
