@@ -32,7 +32,7 @@ Kubernets集群（Kubernetes version需为 v1.19.x ～ v1.20.x）并且设置了
    ```
 HMB 目前与最新版本 kustomize不兼容,需要下载 kustomize v3.2.0。 
    ```shell
-  curl -LO https://github.com/kubernetes-sigs/kustomize/releases/tag/v3.2.0/kustomize_3.2.0_linux_amd64
+  curl -LO https://github.com/kubernetes-sigs/kustomize/releases/download/v3.2.0/kustomize_3.2.0_linux_amd64
    ```
  
 如果未安装 kubectl，请下载kubectl。版本需要与集群版本一致，请修改下载地址的版本号。
