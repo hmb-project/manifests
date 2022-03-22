@@ -25,10 +25,12 @@ Manifests 工作组为使用kustomize安装HMB提供了两个选项，其目的�
 
 ### 环境准备
 
-1. Kubernets集群（在v1.20.6通过测试）并且设置了(默认存储类)[https://kubernetes.io/docs/concepts/storage/storage-classes/]
-2. kustomize v3.2.0（(下载链接)[https://github.com/kubernetes-sigs/kustomize/releases/tag/v3.2.0]）
+1. Kubernets集群（Kubernetes version需为 v1.19.x ～ v1.20.x）并且设置了[默认存储类](https://kubernetes.io/docs/concepts/storage/storage-classes/)
+2. kustomize v3.2.0 `https://github.com/kubernetes-sigs/kustomize/releases/tag/v3.2.0`
    > HMB 目前与最新版本 kustomize不兼容。
-3. kubectl
+3. kubectl `https://dl.k8s.io/release/v1.20.6/bin/linux/amd64/kubectl`
+   > kubectl 版本需要与集群版本一致，请修改下载地址的版本号
+
 
 ### 安装
 
