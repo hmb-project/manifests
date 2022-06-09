@@ -40,3 +40,6 @@ images:
   - name: gcr.io/ml-pipeline/workflow-controller
     newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-workflow-controller
     newTag: v3.1.6-patch-license-compliance
+  - name: gcr.io/ml-pipeline/mysql
+    newName: mysql
+    newTag: 5.7
