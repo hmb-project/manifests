@@ -46,3 +46,8 @@ configMapGenerator:
 
 configurations:
 - params.yaml
+
+images:
+  - name: gcr.io/kubebuilder/kube-rbac-proxy
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/kube-rbac-proxy
+    newTag: v0.4.0

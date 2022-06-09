@@ -42,4 +42,10 @@ images:
     newTag: v3.1.6-patch-license-compliance
   - name: gcr.io/ml-pipeline/mysql
     newName: mysql
-    newTag: 5.7
+    newTag: "5.7"
+  - name: gcr.io/tfx-oss-public/ml_metadata_store_server
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-metadata-store-server
+    newTag: 1.0.0
+  - name: gcr.io/ml-pipeline/minio
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/minio
+    newTag: RELEASE.2019-08-14T20-37-41Z-license-compliance
