@@ -10,4 +10,5 @@ commonLabels:
   app: cache-server
 images:
   - name: gcr.io/ml-pipeline/cache-server
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-cache-server
     newTag: 1.7.0

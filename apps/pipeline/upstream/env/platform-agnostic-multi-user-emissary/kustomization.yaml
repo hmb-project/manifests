@@ -5,3 +5,38 @@ bases:
 
 patchesStrategicMerge:
 - workflow-controller-configmap-patch.yaml
+
+images:
+  - name: gcr.io/ml-pipeline/visualization-server
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-visualization-server
+    newTag: 1.7.0
+  - name: gcr.io/ml-pipeline/viewer-crd-controller
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-viewer-crd-controller
+    newTag: 1.7.0
+  - name: gcr.io/ml-pipeline/cache-server
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-cache-server
+    newTag: 1.7.0
+  - name: gcr.io/ml-pipeline/metadata-envoy
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-metadata-envoy
+    newTag: v0.6.1
+  - name: gcr.io/ml-pipeline/api-server
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-api-server
+    newTag: 1.7.0
+  - name: gcr.io/ml-pipeline/cache-deployer
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-cache-deployer
+    newTag: 1.7.0
+  - name: gcr.io/ml-pipeline/frontend
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-frontend
+    newTag: 1.7.0
+  - name: gcr.io/ml-pipeline/metadata-writer
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-metadata-writer
+    newTag: 1.7.0
+  - name: gcr.io/ml-pipeline/persistenceagent
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-persistenceagent
+    newTag: 1.7.0
+  - name: gcr.io/ml-pipeline/scheduledworkflow
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-scheduledworkflow
+    newTag: 1.7.0
+  - name: gcr.io/ml-pipeline/workflow-controller
+    newName: registry.cn-shenzhen.aliyuncs.com/h0p1/ml-pipeline-workflow-controller
+    newTag: v3.1.6-patch-license-compliance

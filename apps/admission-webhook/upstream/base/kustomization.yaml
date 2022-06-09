@@ -15,7 +15,7 @@ commonLabels:
   app.kubernetes.io/name: poddefaults
 images:
 - name: public.ecr.aws/j1r0q0g6/notebooks/admission-webhook
-  newName: public.ecr.aws/j1r0q0g6/notebooks/admission-webhook
+  newName: registry.cn-shenzhen.aliyuncs.com/h0p1/notebooks-admission-webhook
   newTag: v1.4
 namespace: kubeflow
 generatorOptions:
